@@ -39,9 +39,18 @@ mcp-elicitation-example/
    ```bash
    uv sync
    ```
+   
+   This will automatically:
+   - Create a virtual environment with Python 3.11+
+   - Install all dependencies from `pyproject.toml`
+   - Lock dependencies in `uv.lock` for reproducible builds
 
-   Or using pip:
+   > **Note**: No need to manually create or activate a virtual environment - `uv` handles this automatically!
+
+   **Alternative (using pip)**:
    ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -e .
    ```
 
@@ -52,7 +61,7 @@ mcp-elicitation-example/
 Start the MCP server in one terminal:
 
 ```bash
-python elicitation-server.py
+uv run python elicitation-server.py
 ```
 
 The server will start on `http://localhost:8000/mcp` by default.
@@ -62,8 +71,10 @@ The server will start on `http://localhost:8000/mcp` by default.
 In another terminal, run the interactive client:
 
 ```bash
-python elicitation-client.py
+uv run python elicitation-client.py
 ```
+
+> **Tip**: Use `uv run` to automatically use the project's virtual environment without manual activation!
 
 ### Demo Scenarios
 

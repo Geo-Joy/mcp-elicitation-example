@@ -138,6 +138,11 @@ async def run():
                 )
                 print(f"✅ Connected with capabilities: {capabilities_list}")
 
+                # List available tools
+                tools = await session.list_tools()
+                tool_names = [tool.name for tool in tools.tools]
+                print(f"✅ Available tools: {tool_names}")
+
                 print("\n🍽️  Starting table booking process...")
 
                 # Test different scenarios

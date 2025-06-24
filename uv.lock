@@ -145,7 +145,7 @@ cli = [
 ]
 
 [[package]]
-name = "mcp-server-demo"
+name = "mcp-elicitation-example"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
