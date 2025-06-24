@@ -1,0 +1,14 @@
+[project]
+name = "mcp-elicitation-example"
+version = "0.1.0"
+description = "MCP elicitation demo - interactive table booking system"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.9.4",
+]
+authors = [
+    { name = "Geo Joy", email = "breachguru@gmail.com" },
+]
+[tool.uv.sources]
+mcp = { git = "https://github.com/modelcontextprotocol/python-sdk.git" }
