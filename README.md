@@ -2,6 +2,9 @@
 
 A demonstration of the Model Context Protocol (MCP) with intelligent elicitation capabilities for interactive data gathering. This project showcases how an MCP server can dynamically request information from clients when needed.
 
+## Demo Video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/b4D4BSAHKgg/0.jpg)](h[ttps://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=b4D4BSAHKgg))
+
 ## Overview
 
 This demo implements a restaurant table booking system that demonstrates MCP's elicitation feature. The server can intelligently request missing or invalid data from the client through interactive prompts.
