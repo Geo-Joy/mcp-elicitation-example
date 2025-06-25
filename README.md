@@ -3,7 +3,7 @@
 A demonstration of the Model Context Protocol (MCP) with intelligent elicitation capabilities for interactive data gathering. This project showcases how an MCP server can dynamically request information from clients when needed.
 
 ## Demo Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/b4D4BSAHKgg/0.jpg)](h[ttps://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=b4D4BSAHKgg))
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b4D4BSAHKgg?si=nXrfbcHOqnBJiSIT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Overview
 
